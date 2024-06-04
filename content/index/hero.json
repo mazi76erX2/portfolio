@@ -1,6 +1,6 @@
 {
 	"intro": {
-		"start": "const Andrew = ( name, passion ) =>",
+		"start": "const Xolani = ( name: str, passion: str ) =>",
 		"end": "Hello, my name is",
 		"speed": 60,
 		"deletionSpeed": 80,
@@ -11,22 +11,26 @@
 	},
 
 	"header": {
-		"name": "Andrew Nelson.",
+		"name": "Xolani Mazibuko.",
 		"usp": "I design and build meaningful experiences."
 	},
 
-	"paragraph": "I am a digital polymath — a constantly evolving digital creator driven by a passion for lifelong learning and the desire to leave a lasting impact.",
+	"paragraph": "I'm a lifelong learner, digital polymath, and dedicated Python developer. I leverage my mathematical background to solve complex problems and create impactful solutions.",
 
 	"buttons": {
 		"primary": {
 			"title": "Contact Me",
-			"url": "",
+			"url": "mazi76erx2.github.io",
 			"leaveSite": false
 		},
 		"secondary": {
 			"title": "LinkedIn",
-			"url": "",
+			"url": "https://www.linkedin.com/in/xolani-mazibuko-baa7a4244",
 			"leaveSite": "true"
 		}
+	},
+
+	"email": {
+		"url": "mazi76erx@gmail.com"
 	}
 }

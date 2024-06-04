@@ -10,6 +10,7 @@ import SectionTitle from '../../blocks/section.title.block'
 
 import css 			from '../../../styles/sections/projects/featured.module.scss'
 import content 		from '../../../content/projects/featured.json'
+import title		from '../../../content/projects/section-title.json'
 
 export default function FeaturedProjects() {
 
@@ -17,9 +18,9 @@ export default function FeaturedProjects() {
 		<Section classProp={css.hasBg}>	
 			<Container spacing={'verticalXXXXLrg'}>
 				<SectionTitle
-					title="Featured Projects"
-					preTitle="UX and Full Stack"
-					subTitle="Focused on the experience, driven by the engineering."
+					title={title.title}
+					preTitle={title.preTitle}
+					subTitle={title.subTitle}
 				/> 				{
 				content.map( (data, index) => {
 					return (
